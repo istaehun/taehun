@@ -1,0 +1,101 @@
+// @name Resume
+// @description All resume styles
+
+dl {
+  margin-bottom: ($spacer * 4);
+}
+
+li {
+  display: list-item;
+  list-style: circle;
+  margin-left: 1em;
+}
+.sublist li {
+  font-size: 0.9rem;
+  color: #333;
+  margin-left: 3em;
+}
+
+dt, dd {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: $spacer;
+}
+
+@media(min-width: 640px) {
+  li {
+    margin-left: 0;
+  }
+  dt, dd {
+    margin-bottom: 30px;
+  }
+
+  .experience {
+    dt {
+      width: 30%;
+      padding-right: ($spacer * 2);
+    }
+    dd {
+      width: 68%;
+    }
+  }
+
+  .education {
+    dt, dd {
+      width: 50%;
+    }
+  }
+}
+
+.title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+a {
+  color: #333 !important;
+  transition: all linear .2s;
+
+  &:hover {
+    background: rgba(245, 215, 110, 1);
+    text-decoration: none;
+  }
+}
+
+strong {
+  font-weight: bold;
+}
+
+blockquote {
+  font-family: Georgia, serif;
+  font-size: 1rem;
+  font-style: italic;
+  margin: 0.25em 0;
+  padding: 0.35em 40px;
+  line-height: 1.45;
+  position: relative;
+  color: #383838;
+}
+
+blockquote:before {
+  display: block;
+  padding-left: 10px;
+  content: "\201C";
+  font-size: 80px;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  color: #7a7a7a;
+}
+
+blockquote cite {
+  color: #999999;
+  font-size: 0.8rem;
+  display: block;
+  margin-top: 5px;
+}
+
+blockquote cite:before {
+  content: "\2014 \2009";
+}

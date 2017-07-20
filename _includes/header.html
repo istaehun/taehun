@@ -1,0 +1,19 @@
+<header>
+    <div class="container">
+        <div class="intro">
+            <img class="profile" src="img/profile.png">
+            <p class="intro__name">{{ site.name }}</p>
+            <p class="intro__main">{{ site.data.info.main }}</p>
+            {% for extra in site.data.info.extra %}
+            <p class="intro__extra">{{ extra }}</p>
+            {% endfor %}
+        </div>
+
+        <ul class="nav">
+            <li><a href="#">Curriculum Vitae</a></li>
+            <li><a href="#">Timeline</a></li>
+            <li><a href="#">References</a></li>
+            <li><a href="#">Life with Music</a></li>
+        </ul>
+    </div>
+</header>

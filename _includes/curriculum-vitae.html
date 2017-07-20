@@ -1,0 +1,48 @@
+<h3 class="section-title">Research</h3>
+{% for research in site.data.research %}
+<dl class="experience">
+        <dt>
+            <p class="title">{{ research.sub-title }}</p>
+        </dt>
+        <dd>
+            <ul>
+                {% for item in research.list %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+        </dd>
+</dl>
+{% endfor %}
+
+<h3 class="section-title">Ph.D. Dissertation</h3>
+<ul>
+    {% for comments in site.data.phd-dissertation.comments %}
+    <li>{{ comments }}</li>
+    {% endfor %}
+    <ul class="sublist">
+        {% for member in site.data.phd-dissertation.members %}
+        <li>{{ member }}</li>
+        {% endfor %}
+    </ul>
+</ul>
+<img src="img/tae_dissertation.png">
+
+<h3 class="section-title">Engagement</h3>
+<blockquote>
+    {{ site.data.engagement.blockquote.comment }}
+    <cite>{{ site.data.engagement.blockquote.cite }}</cite>
+</blockquote>
+{% for engagement in site.data.engagement.engagements %}
+<dl class="experience">
+    <dt>
+        <p class="title">{{ engagement.title }}</p>
+    </dt>
+    <dd>
+        <ul>
+            {% for item in engagement.list %}
+            <li>{{ item }}</li>
+            {% endfor %}
+        </ul>
+    </dd>
+</dl>
+{% endfor %}
