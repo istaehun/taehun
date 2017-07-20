@@ -54,7 +54,8 @@ dt, dd {
 }
 
 a {
-  color: #333 !important;
+  color: black!important;
+  background: rgba(245, 215, 110, .5);
   transition: all linear .2s;
 
   &:hover {
@@ -62,6 +63,7 @@ a {
     text-decoration: none;
   }
 }
+
 
 strong {
   font-weight: bold;
