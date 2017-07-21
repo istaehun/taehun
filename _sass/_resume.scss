@@ -73,31 +73,40 @@ blockquote {
   font-family: Georgia, serif;
   font-size: 1rem;
   font-style: italic;
-  margin: 0.25em 0;
+  margin: ($spacer * 2) 0;
   padding: 0.35em 40px;
   line-height: 1.45;
   position: relative;
   color: #383838;
-}
 
-blockquote:before {
-  display: block;
-  padding-left: 10px;
-  content: "\201C";
-  font-size: 80px;
-  position: absolute;
-  left: -20px;
-  top: -20px;
-  color: #7a7a7a;
-}
+  &:before, &:after {
+    display: block;
+    font-size: 80px;
+    position: absolute;
+    top: -20px;
+    color: #7a7a7a;
+  }
 
-blockquote cite {
-  color: #999999;
-  font-size: 0.8rem;
-  display: block;
-  margin-top: 5px;
-}
+  &:before {
+    padding-left: 10px;
+    content: "\201C";
+    left: -20px;
+  }
 
-blockquote cite:before {
-  content: "\2014 \2009";
+  &:after {
+    padding-right: 10px;
+    content: "\201D";
+    right: 0;
+  }
+
+  cite {
+    color: #999999;
+    font-size: 0.8rem;
+    display: block;
+    margin-top: 5px;
+
+    &:before {
+      content: "\2014 \2009";
+    }
+  }
 }
