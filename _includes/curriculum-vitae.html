@@ -1,7 +1,7 @@
 <h3 class="section-title">Research</h3>
 <blockquote>
-    {{ site.data.blockquote.comment }}
-    <cite>{{ site.data.blockquote.cite }}</cite>
+    {{ site.data.blockquote.research.comment }}
+    <cite>{{ site.data.blockquote.research.cite }}</cite>
 </blockquote>
 {% for research in site.data.research %}
 <dl class="experience">
@@ -32,6 +32,10 @@
 <img src="img/tae_dissertation.png">
 
 <h3 class="section-title">Engagement</h3>
+<blockquote>
+    {{ site.data.blockquote.engagement.comment }}
+    <cite>{{ site.data.blockquote.engagement.cite }}</cite>
+</blockquote>
 {% for engagement in site.data.engagement.engagements %}
 <dl class="experience">
     <dt>
