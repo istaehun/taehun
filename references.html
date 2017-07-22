@@ -1,0 +1,31 @@
+---
+layout: default
+title: References
+---
+<h3 class="section-title">References</h3>
+<div class="container">
+    {% for ref in site.data.references %}
+    <dl class="reference">
+        <dt>
+            <p class="title">{{ ref.degree }}. {{ ref.name }}</p>
+            <p class="role">{{ ref.role }}</p>
+            <p class="link">
+                <a target="_blank" class="icon-btn" href="{{ ref.website }}">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                </a>
+                <a class="icon-btn" href="mailto:{{ ref.email }}">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                </a>
+            </p>
+        </dt>
+        <dd>
+            <ul>
+                {% for major in ref.majors %}
+                <li>{{ major }}</li>
+                {% endfor %}
+                <li> {{ ref.department }}</li>
+            </ul>
+        </dd>
+    </dl>
+    {% endfor %}
+</div>

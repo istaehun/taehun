@@ -1,0 +1,38 @@
+-
+  degree: "Dr"
+  name: "Vallabh Sambamurthy"
+  role: "Co-Chair of Ph.D. Dissertation Committee"
+  majors:
+    - "Eli Broad Professor of Business and Associate Dean for Outreach & Engagement"
+  department: "Broad College of Business, Michigan State University"
+  email: "sambamurthy@broad.msu.edu"
+  website: "https://broad.msu.edu/facultystaff/sambamurthy/"
+-
+  degree: "Dr"
+  name: "Anjana Susarla"
+  role: "Co-Chair of Ph.D. Dissertation Committee"
+  majors:
+    - "Associate Professor and Ph.D. Program Director"
+    - "Department of Accounting & Information Systems"
+  department: "Broad College of Business, Michigan State University"
+  email: "asusarla@broad.msu.edu"
+  website: "https://broad.msu.edu/facultystaff/asusarla/"
+-
+  degree: "Dr"
+  name: "Ashton Shortridge"
+  role: "Ph.D. Dissertation Committee"
+  majors:
+    - "Professor and Graduate Program Director"
+    - "Department of Geography, Environment, and Spatial Sciences"
+  department: "Michigan State University"
+  email: "ashton@msu.edu"
+  website: "http://geo.msu.edu/people/shortridge-ashton/"
+-
+  degree: "Dr"
+  name: "Jae-Nam Lee"
+  role: "Master Thesis Advisor"
+  majors:
+    - "Professor of MIS and Associate Dean for Research"
+  department: "Korea University Business School, Korea University"
+  email: "isjnlee@korea.ac.kr"
+  website: "http://biz.korea.ac.kr/~isjnlee/"

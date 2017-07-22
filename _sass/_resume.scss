@@ -3,6 +3,9 @@
 
 dl {
   margin-bottom: ($spacer * 4);
+  dd {
+    width: 100%;
+  }
 }
 
 li {
@@ -10,6 +13,7 @@ li {
   list-style: circle;
   margin-left: 1em;
 }
+
 .sublist li {
   font-size: 0.9rem;
   color: #333;
@@ -26,11 +30,10 @@ dt, dd {
   li {
     margin-left: 0;
   }
-  dt, dd {
-    margin-bottom: 30px;
-  }
-
-  .experience {
+  dl {
+    dt, dd {
+      margin-bottom: 30px;
+    }
     dt {
       width: 30%;
       padding-right: ($spacer * 2);
@@ -38,11 +41,15 @@ dt, dd {
     dd {
       width: 68%;
     }
+
   }
 
-  .education {
-    dt, dd {
-      width: 50%;
+  .reference {
+    dt {
+      width: 40%;
+    }
+    dd {
+      width: 58%;
     }
   }
 }
@@ -54,7 +61,7 @@ dt, dd {
 }
 
 a {
-  color: black!important;
+  color: black !important;
   background: rgba(245, 215, 110, .5);
   transition: all linear .2s;
 
@@ -63,7 +70,6 @@ a {
     text-decoration: none;
   }
 }
-
 
 strong {
   font-weight: bold;
