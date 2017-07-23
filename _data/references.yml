@@ -29,6 +29,15 @@
   website: "http://geo.msu.edu/people/shortridge-ashton/"
 -
   degree: "Dr"
+  name: "Ranjani Krishnan"
+  majors:
+    - "Professor and Ernest W. & Robert W. Schaberg Endowed Chair in Accounting"
+    - "Department of Accounting & Information Systems"
+  department: "Broad College of Business, Michigan State University"
+  email: "krishnan@broad.msu.edu"
+  website: "https://broad.msu.edu/facultystaff/krishnan/"
+-
+  degree: "Dr"
   name: "Jae-Nam Lee"
   role: "Master Thesis Advisor"
   majors:
