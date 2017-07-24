@@ -35,5 +35,5 @@ $spacer: 10px;
 img {
   max-width: 100%;
   height: auto;
-  margin: 20px 0;
+  margin: 20px 0 ($spacer * 4);
 }
