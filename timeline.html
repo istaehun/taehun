@@ -3,6 +3,23 @@ layout: default
 title: Timeline
 ---
 <div class="container">
-    <h3 class="section-title">Timeline</h3>
-    <p>Coming soon...</p>
+<h3 class="section-title">Timeline</h3>
+</div>
+<section id="cd-timeline" class="cd-container">
+    {% for content in site.data.timeline %}
+    <div class="cd-timeline-block">
+        <div class="cd-timeline-img">
+        </div>
+        <div class="cd-timeline-content">
+            <h2>{{ content.title }}</h2>
+            <ul>
+                {% for text in content.text-list %}
+                <li>{{ text }}</li>
+                {% endfor %}
+            </ul>
+            <span class="cd-date">{{ content.date }}</span>
+        </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+    {% endfor %}
+</section> <!-- cd-timeline -->
 </div>
