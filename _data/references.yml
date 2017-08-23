@@ -29,6 +29,15 @@
   website: "http://geo.msu.edu/people/shortridge-ashton/"
 -
   degree: "Dr"
+  name: "Brian T. Pentland"
+  majors:
+    - "Professor and Faculty Director of the Center for Business & Social Analytics"
+    - "Department of Accounting & Information Systems"
+  department: "Broad College of Business, Michigan State University"
+  email: "pentland@broad.msu.edu"
+  website: "https://broad.msu.edu/facultystaff/pentland/"
+-
+  degree: "Dr"
   name: "Ranjani Krishnan"
   majors:
     - "Professor and Ernest W. & Robert W. Schaberg Endowed Chair in Accounting"
