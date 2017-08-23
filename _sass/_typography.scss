@@ -11,4 +11,7 @@ body {
     font-family: $base-font-family, serif;
     font-size: $base-font-size;
     line-height: 1.4;
+    em {
+      font-style: italic;
+    }
 }
