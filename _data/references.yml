@@ -1,18 +1,20 @@
 -
   degree: "Dr"
   name: "Vallabh Sambamurthy"
-  role: "Co-Chair of Ph.D. Dissertation Committee"
+  role: "Co-Chair of PhD Dissertation Committee"
   majors:
-    - "Eli Broad Professor of Business and Associate Dean for Outreach & Engagement"
+    - "Eli Broad Professor of Business"
+    - "Associate Dean for Outreach & Engagement"
   department: "Broad College of Business, Michigan State University"
   email: "sambamurthy@broad.msu.edu"
   website: "https://broad.msu.edu/facultystaff/sambamurthy/"
 -
   degree: "Dr"
   name: "Anjana Susarla"
-  role: "Co-Chair of Ph.D. Dissertation Committee"
+  role: "Co-Chair of PhD Dissertation Committee"
   majors:
-    - "Associate Professor and Ph.D. Program Co-Director"
+    - "Associate Professor"
+    - "PhD Program Co-Director"
     - "Department of Accounting & Information Systems"
   department: "Broad College of Business, Michigan State University"
   email: "asusarla@broad.msu.edu"
@@ -20,10 +22,12 @@
 -
   degree: "Dr"
   name: "Ashton Shortridge"
-  role: "Ph.D. Dissertation Committee"
+  role: "PhD Dissertation Committee"
   majors:
-    - "Professor and Graduate Program Director"
+    - "Professor"
+    - "Graduate Program Director"
     - "Department of Geography, Environment, & Spatial Sciences"
+    - "Interim Director, Social Science Data Analytics Initiative"
   department: "Michigan State University"
   email: "ashton@msu.edu"
   website: "http://geo.msu.edu/people/shortridge-ashton/"
@@ -31,7 +35,8 @@
   degree: "Dr"
   name: "Brian T. Pentland"
   majors:
-    - "Professor and Faculty Director of the Center for Business & Social Analytics"
+    - "Professor"
+    - "Faculty Director of the Center for Business & Social Analytics"
     - "Department of Accounting & Information Systems"
   department: "Broad College of Business, Michigan State University"
   email: "pentland@broad.msu.edu"
@@ -40,7 +45,8 @@
   degree: "Dr"
   name: "Ranjani Krishnan"
   majors:
-    - "Professor and Ernest W. & Robert W. Schaberg Endowed Chair in Accounting"
+    - "Professor"
+    - "Ernest W. & Robert W. Schaberg Endowed Chair in Accounting"
     - "Department of Accounting & Information Systems"
   department: "Broad College of Business, Michigan State University"
   email: "krishnan@broad.msu.edu"
@@ -50,7 +56,9 @@
   name: "Jae-Nam Lee"
   role: "Master Thesis Advisor"
   majors:
-    - "Professor of MIS and Associate Dean for Research"
+    - "Professor"
+    - "Associate Dean for Research"
+    - "Department of Management Information Systems"
   department: "Korea University Business School, Korea University"
   email: "isjnlee@korea.ac.kr"
   website: "http://biz.korea.ac.kr/~isjnlee/"
