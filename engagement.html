@@ -1,0 +1,25 @@
+---
+layout: default
+title: Engagement
+---
+<div class="container">
+    <h3 class="section-title">Engagement</h3>
+    <blockquote>
+        {{ site.data.blockquote.engagement.comment }}
+        <cite>{{ site.data.blockquote.engagement.cite }}</cite>
+    </blockquote>
+    {% for engagement in site.data.engagement.engagements %}
+    <dl>
+        <dt>
+            <p class="title">{{ engagement.title }}</p>
+        </dt>
+        <dd>
+            <ul>
+                {% for item in engagement.list %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+        </dd>
+    </dl>
+    {% endfor %}
+</div>

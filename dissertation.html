@@ -1,0 +1,18 @@
+---
+layout: default
+title: Ph.D. Dissertation
+---
+<div class="container">
+    <h3 class="section-title">Ph.D. Dissertation</h3>
+    <ul>
+        {% for comments in site.data.phd-dissertation.comments %}
+        <li>{{ comments }}</li>
+        {% endfor %}
+        <ul class="sublist">
+            {% for member in site.data.phd-dissertation.members %}
+            <li>{{ member }}</li>
+            {% endfor %}
+        </ul>
+    </ul>
+    <img src="img/tae_dissertation.png">
+</div>

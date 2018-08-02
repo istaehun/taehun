@@ -1,8 +1,25 @@
 ---
 layout: default
-title: Curriculum Vitae
+title: Research
 ---
-
 <div class="container">
-    {% include curriculum-vitae.html %}
+    <h3 class="section-title">Research</h3>
+    <blockquote>
+        {{ site.data.blockquote.research.comment }}
+        <cite>{{ site.data.blockquote.research.cite }}</cite>
+    </blockquote>
+    {% for research in site.data.research %}
+    <dl>
+            <dt>
+                <p class="title">{{ research.sub-title }}</p>
+            </dt>
+            <dd>
+                <ul>
+                    {% for item in research.list %}
+                    <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+            </dd>
+    </dl>
+    {% endfor %}
 </div>
