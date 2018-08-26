@@ -3,7 +3,8 @@
   name: "Vallabh Sambamurthy"
   role: "Co-Chair of PhD Dissertation Committee"
   majors:
-    - "Professor in Department of Accounting & Information Systems"
+    - "Professor"
+    - "Department of Accounting & Information Systems"
   department: "Broad College of Business, Michigan State University"
   email: "sambamurthy@broad.msu.edu"
   website: "https://broad.msu.edu/facultystaff/sambamurthy/"
@@ -12,7 +13,8 @@
   name: "Anjana Susarla"
   role: "Co-Chair of PhD Dissertation Committee"
   majors:
-    - "Associate Professor in Department of Accounting & Information Systems"
+    - "Associate Professor"
+    - "Department of Accounting & Information Systems"
   department: "Broad College of Business, Michigan State University"
   email: "asusarla@broad.msu.edu"
   website: "https://broad.msu.edu/facultystaff/asusarla/"
@@ -21,7 +23,8 @@
   name: "Ashton Shortridge"
   role: "PhD Dissertation Committee"
   majors:
-    - "Professor in Department of Geography, Environment, & Spatial Sciences"
+    - "Professor"
+    - "Department of Geography, Environment, & Spatial Sciences"
   department: "Michigan State University"
   email: "ashton@msu.edu"
   website: "http://geo.msu.edu/people/shortridge-ashton/"
@@ -29,7 +32,8 @@
   degree: "Dr"
   name: "Brian T. Pentland"
   majors:
-    - "Professor in Department of Accounting & Information Systems"
+    - "Professor"
+    - "Department of Accounting & Information Systems"
   department: "Broad College of Business, Michigan State University"
   email: "pentland@broad.msu.edu"
   website: "https://broad.msu.edu/facultystaff/pentland/"
@@ -37,7 +41,8 @@
   degree: "Dr"
   name: "Ranjani Krishnan"
   majors:
-    - "Professor in Department of Accounting & Information Systems"
+    - "Professor"
+    - "Department of Accounting & Information Systems"
   department: "Broad College of Business, Michigan State University"
   email: "krishnan@broad.msu.edu"
   website: "https://broad.msu.edu/facultystaff/krishnan/"
@@ -46,7 +51,8 @@
   name: "Jae-Nam Lee"
   role: "Master Thesis Advisor"
   majors:
-    - "Professor in Department of Management Information Systems"
+    - "Professor"
+    - "Department of Management Information Systems"
   department: "Korea University Business School, Korea University"
   email: "isjnlee@korea.ac.kr"
   website: "http://biz.korea.ac.kr/~isjnlee/"
