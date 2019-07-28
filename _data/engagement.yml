@@ -1,5 +1,15 @@
 engagements:
   -
+    title: Education
+    list:
+      - "PhD in Business Information Systems, Broad College of Business, Michigan State University, East Lansing, MI, May 2018."
+      - "MS in Management Information Systems, Korea University Business School, Korea University, Seoul, South Korea, August 2009."
+      - "BBA, Korea University Business School, Korea University, Seoul, South Korea, August 2007."
+  -
+    title: Academic Appointment
+    list:
+      - "Assistant Professor, Department of Information Systems, Hankamer School of Business, Baylor University, Waco, TX, August 2018–Present."
+  -
     title: Teaching
     list:
       - "MIS 6398: Research Apprenticeship I, Hankamer School of Business, Baylor University."
