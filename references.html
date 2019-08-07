@@ -4,6 +4,10 @@ title: References
 ---
 <div class="container">
     <h3 class="section-title">References</h3>
+    <blockquote>
+        {{ site.data.blockquote.references.comment }}
+        <cite>{{ site.data.blockquote.references.cite }}</cite>
+    </blockquote>
     {% for ref in site.data.references %}
     <dl class="reference">
         <dt>

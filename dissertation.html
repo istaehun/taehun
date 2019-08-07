@@ -4,6 +4,10 @@ title: Dissertation
 ---
 <div class="container">
     <h3 class="section-title">Dissertation</h3>
+    <blockquote>
+        {{ site.data.blockquote.dissertation.comment }}
+        <cite>{{ site.data.blockquote.dissertation.cite }}</cite>
+    </blockquote>
     <ul class="dissertation-list">
         {% for comments in site.data.phd-dissertation.comments %}
         <li>{{ comments }}</li>

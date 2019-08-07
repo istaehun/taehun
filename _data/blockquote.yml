@@ -4,3 +4,12 @@ research:
 engagement:
   comment: "Life’s most persistent and urgent question is: what are you doing for others?"
   cite: "Martin Luther King, Jr."
+dissertation:
+  comment: "In theory there is no difference between theory and practice. In practice there is."
+  cite: "Yogi Berra"
+timeline:
+  comment: "Yesterday is history, tomorrow is a mystery, today is God's gift, that's why we call it the present."
+  cite: "Joan Rivers"
+references:
+  comment: "if you want to go quickly, go alone. If you want to go far, go together"
+  cite: "African proverb"
