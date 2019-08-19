@@ -26,8 +26,11 @@ li {
         margin-bottom: 0;
     }
 }
-
-blockquote {
-    width: 500px;
-    margin: 20px auto;
+.blockquote-container {
+    text-align: center;
+    blockquote {
+        text-align: left;
+        display: inline-block;
+    }
 }
+

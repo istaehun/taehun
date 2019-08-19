@@ -4,10 +4,12 @@ title: Research
 ---
 <div class="container">
     <h3 class="section-title">Research</h3>
-    <blockquote>
-        {{ site.data.blockquote.research.comment }}
-        <cite>{{ site.data.blockquote.research.cite }}</cite>
-    </blockquote>
+    <div class="blockquote-container">
+        <blockquote>
+            <p>{{ site.data.blockquote.research.comment }}</p>
+            <cite>{{ site.data.blockquote.research.cite }}</cite>
+        </blockquote>
+    </div>
     {% for research in site.data.research %}
     <dl>
             <dt>

@@ -4,10 +4,12 @@ title: Engagement
 ---
 <div class="container">
     <h3 class="section-title">Engagement</h3>
-    <blockquote>
-        {{ site.data.blockquote.engagement.comment }}
-        <cite>{{ site.data.blockquote.engagement.cite }}</cite>
-    </blockquote>
+    <div class="blockquote-container">
+        <blockquote>
+            <p>{{ site.data.blockquote.engagement.comment }}</p>
+            <cite>{{ site.data.blockquote.engagement.cite }}</cite>
+        </blockquote>
+    </div>
     {% for engagement in site.data.engagement.engagements %}
     <dl>
         <dt>

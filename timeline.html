@@ -4,10 +4,12 @@ title: Timeline
 ---
 <div class="container">
     <h3 class="section-title">Timeline</h3>
-    <blockquote>
-        {{ site.data.blockquote.timeline.comment }}
-        <cite>{{ site.data.blockquote.timeline.cite }}</cite>
-    </blockquote>
+    <div class="blockquote-container">
+        <blockquote>
+            <p>{{ site.data.blockquote.timeline.comment }}</p>
+            <cite>{{ site.data.blockquote.timeline.cite }}</cite>
+        </blockquote>
+    </div>
     <section id="cd-timeline" class="cd-container">
         {% for content in site.data.timeline %}
         <div class="cd-timeline-block">
