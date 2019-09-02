@@ -30,6 +30,15 @@
   website: "http://geo.msu.edu/people/shortridge-ashton/"
 -
   degree: "Dr"
+  name: "Jeffrey M. Wooldridge"
+  majors:
+    - "Professor"
+    - "Department of Economics"
+  department: "Michigan State University"
+  email: "wooldri1@msu.edu"
+  website: "http://econ.msu.edu/faculty/wooldridge/"
+-
+  degree: "Dr"
   name: "Brian T. Pentland"
   majors:
     - "Professor"
