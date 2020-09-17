@@ -30,33 +30,6 @@
   website: "http://geo.msu.edu/people/shortridge-ashton/"
 -
   degree: "Dr"
-  name: "Jeffrey M. Wooldridge"
-  majors:
-    - "Professor"
-    - "Department of Economics"
-  department: "Michigan State University"
-  email: "wooldri1@msu.edu"
-  website: "http://econ.msu.edu/faculty/wooldridge/"
--
-  degree: "Dr"
-  name: "Brian T. Pentland"
-  majors:
-    - "Professor"
-    - "Department of Accounting & Information Systems"
-  department: "Broad College of Business, Michigan State University"
-  email: "pentland@broad.msu.edu"
-  website: "https://broad.msu.edu/facultystaff/pentland/"
--
-  degree: "Dr"
-  name: "Ranjani Krishnan"
-  majors:
-    - "Professor"
-    - "Department of Accounting & Information Systems"
-  department: "Broad College of Business, Michigan State University"
-  email: "krishnan@broad.msu.edu"
-  website: "https://broad.msu.edu/facultystaff/krishnan/"
--
-  degree: "Dr"
   name: "Jae-Nam Lee"
   role: "Chair of Master Thesis Committee"
   majors:
