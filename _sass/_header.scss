@@ -19,6 +19,7 @@ header {
     margin: 0 $spacer;
     width: 50px;
     float: right;
+    border-radius: 10px;
     @media(min-width: 640px) {
       width: 100px;
       float: right;
