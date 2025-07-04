@@ -15,10 +15,12 @@ engagements:
   -
     title: Teaching Interests
     list:
+      - "Artificial Intelligence Applications for Business"
+      - "Blockchain and Cryptocurrency"
+      - "IT-Oriented Innovations for Startups"
       - "Management Information Systems"
       - "Digital Transformation and IT Project Management"
       - "Business Intelligence and Knowledge Management Systems"
-      - "Machine Learning and Artificial Intelligence Applications for Business"
       - "Business Analytics and Data Science: analyzing large-scale spatial and citizen data"
   -
     title: Teaching
